@@ -10,7 +10,7 @@
       
       
       <link rel="icon" href="../../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.1">
     
     
       
@@ -18,10 +18,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.e35208c4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1118c9be.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ba0d045b.min.css">
         
           
           
@@ -42,6 +42,8 @@
     
     
       
+
+
     
     
   </head>
@@ -123,14 +125,18 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -306,23 +312,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#automatic-testing-with-tox" class="md-nav__link">
-    Automatic Testing with Tox
+  <a href="#automatic-testing" class="md-nav__link">
+    Automatic Testing
+  </a>
+  
+    <nav class="md-nav" aria-label="Automatic Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-tox-as-the-runner" class="md-nav__link">
+    Use Tox as the runner
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#automatic-testing-with-nox" class="md-nav__link">
-    Automatic Testing with Nox
+        
+          <li class="md-nav__item">
+  <a href="#use-nox-as-the-runner" class="md-nav__link">
+    Use Nox as the runner
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#about-pep-582-__pypackages__-directory" class="md-nav__link">
     About PEP 582 __pypackages__ directory
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -336,6 +355,13 @@
         <li class="md-nav__item">
   <a href="#use-other-pep-517-backends" class="md-nav__link">
     Use other PEP 517 backends
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-pdm-in-a-multi-stage-dockerfile" class="md-nav__link">
+    Use PDM in a multi-stage Dockerfile
   </a>
   
 </li>
@@ -565,23 +591,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#automatic-testing-with-tox" class="md-nav__link">
-    Automatic Testing with Tox
+  <a href="#automatic-testing" class="md-nav__link">
+    Automatic Testing
+  </a>
+  
+    <nav class="md-nav" aria-label="Automatic Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-tox-as-the-runner" class="md-nav__link">
+    Use Tox as the runner
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#automatic-testing-with-nox" class="md-nav__link">
-    Automatic Testing with Nox
+        
+          <li class="md-nav__item">
+  <a href="#use-nox-as-the-runner" class="md-nav__link">
+    Use Nox as the runner
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#about-pep-582-__pypackages__-directory" class="md-nav__link">
     About PEP 582 __pypackages__ directory
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -595,6 +634,13 @@
         <li class="md-nav__item">
   <a href="#use-other-pep-517-backends" class="md-nav__link">
     Use other PEP 517 backends
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-pdm-in-a-multi-stage-dockerfile" class="md-nav__link">
+    Use PDM in a multi-stage Dockerfile
   </a>
   
 </li>
@@ -637,7 +683,8 @@
                 
                 
                 <h1 id="advanced-usage">Advanced Usage<a class="headerlink" href="#advanced-usage" title="Permanent link">#</a></h1>
-<h2 id="automatic-testing-with-tox">Automatic Testing with Tox<a class="headerlink" href="#automatic-testing-with-tox" title="Permanent link">#</a></h2>
+<h2 id="automatic-testing">Automatic Testing<a class="headerlink" href="#automatic-testing" title="Permanent link">#</a></h2>
+<h3 id="use-tox-as-the-runner">Use Tox as the runner<a class="headerlink" href="#use-tox-as-the-runner" title="Permanent link">#</a></h3>
 <p><a href="https://tox.readthedocs.io/en/latest/">Tox</a> is a great tool for testing against multiple Python versions or dependency sets.
 You can configure a <code>tox.ini</code> like the following to integrate your testing with PDM:</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
@@ -714,7 +761,7 @@ config should be set as the above example to make PDM work properly.</p>
 </code></pre></div>
 </td></tr></table>
 <p>See the <a href="https://github.com/pdm-project/tox-pdm">project's README</a> for a detailed guidance.</p>
-<h2 id="automatic-testing-with-nox">Automatic Testing with Nox<a class="headerlink" href="#automatic-testing-with-nox" title="Permanent link">#</a></h2>
+<h3 id="use-nox-as-the-runner">Use Nox as the runner<a class="headerlink" href="#use-nox-as-the-runner" title="Permanent link">#</a></h3>
 <p><a href="https://nox.thea.codes/">Nox</a> is another great tool for automated testing. Unlike tox, Nox uses a standard Python file for configuration.</p>
 <p>It is much easier to use PDM in Nox, here is an example of <code>noxfile.py</code>:</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
@@ -748,7 +795,7 @@ config should be set as the above example to make PDM work properly.</p>
 </td></tr></table>
 <p>Note that <code>PDM_IGNORE_SAVED_PYTHON</code> should be set so that PDM can pick up the Python in the virtualenv correctly. Also make sure <code>pdm</code> is available in the <code>PATH</code>.
 Before running nox, you should also <code>pdm config use_venv true</code> to enable venv reusing.</p>
-<h2 id="about-pep-582-__pypackages__-directory">About PEP 582 <code>__pypackages__</code> directory<a class="headerlink" href="#about-pep-582-__pypackages__-directory" title="Permanent link">#</a></h2>
+<h3 id="about-pep-582-__pypackages__-directory">About PEP 582 <code>__pypackages__</code> directory<a class="headerlink" href="#about-pep-582-__pypackages__-directory" title="Permanent link">#</a></h3>
 <p>By default, if you run tools by <code>pdm run</code>, <code>__pypackages__</code> will be seen by the program and all subprocesses created by it. This means virtual environments created by those tools are also aware of the packages inside <code>__pypackages__</code>, which result in unexpected behavior in some cases.
 For <code>nox</code>, you can avoid this by adding a line in <code>noxfile.py</code>:</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;PYTHONPATH&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
@@ -759,7 +806,7 @@ For <code>nox</code>, you can avoid this by adding a line in <code>noxfile.py</c
 <p>Only one thing to keep in mind -- PDM can't be installed on Python &lt; 3.7, so if your project is to be tested on those Python versions,
 you have to make sure PDM is installed on the correct Python version, which can be different from the target Python version the particular job/task is run on.</p>
 <p>Fortunately, if you are using GitHub Action, there is <a href="https://github.com/marketplace/actions/setup-pdm">pdm-project/setup-pdm</a> to make this process easier.
-Here is an example worflow of GitHub Actions, while you can adapt it for other CI platforms.</p>
+Here is an example workflow of GitHub Actions, while you can adapt it for other CI platforms.</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -803,9 +850,17 @@ Here is an example worflow of GitHub Actions, while you can adapt it for other C
 </td></tr></table>
 <div class="admonition important">
 <p class="admonition-title">TIPS</p>
-<p>For GitHub Action users, there is a <a href="https://github.com/actions/ virtual-environments/issues/2803">known compatibility issue</a> on Ubuntu virtual environment.
+<p>For GitHub Action users, there is a <a href="https://github.com/actions/virtual-environments/issues/2803">known compatibility issue</a> on Ubuntu virtual environment.
 If PDM parallel install is failed on that machine you should either set <code>parallel_install</code> to <code>false</code> or set env <code>LD_PRELOAD=/lib/x86_64-linux-gnu/libgcc_s.so.1</code>.
 It is already handled by the <code>pdm-project/setup-pdm</code> action.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your CI scripts run without a proper user set, you might get permission errors when PDM tries to create its cache directory.
+To work around this, you can set the HOME environment variable yourself, to a writable directory, for example:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="nb">export</span> <span class="nv">HOME</span><span class="o">=</span>/tmp/home
+</code></pre></div>
+</td></tr></table>
 </div>
 <h2 id="use-other-pep-517-backends">Use other PEP 517 backends<a class="headerlink" href="#use-other-pep-517-backends" title="Permanent link">#</a></h2>
 <p>PDM supports ALL PEP 517 build backends that comply with PEP 621 specification. At the time of writing, <code>flit</code> is going to switch to PEP 621 metadata in the near future, then you can keep <code>flit</code> as the build-backend while still managing dependencies using PDM:</p>
@@ -817,6 +872,60 @@ It is already handled by the <code>pdm-project/setup-pdm</code> action.</p>
 </code></pre></div>
 </td></tr></table>
 <p>PDM will call the correct backend when <code>pdm build</code>.</p>
+<h2 id="use-pdm-in-a-multi-stage-dockerfile">Use PDM in a multi-stage Dockerfile<a class="headerlink" href="#use-pdm-in-a-multi-stage-dockerfile" title="Permanent link">#</a></h2>
+<p>It is possible to use PDM in a multi-stage Dockerfile to first install the project and dependencies into <code>__pypackages__</code>
+and then copy this folder into the final stage, adding it to <code>PYTHONPATH</code>.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c"># build stage</span>
+<span class="k">FROM</span> <span class="s">python:3.8</span> <span class="k">AS</span> <span class="s">builder</span>
+
+<span class="c"># install PDM</span>
+<span class="k">RUN</span> pip install -U pip setuptools wheel
+<span class="k">RUN</span> pip install pdm
+
+<span class="c"># copy files</span>
+<span class="k">COPY</span> pyproject.toml pdm.lock README.md /project/
+<span class="k">COPY</span> src/ /project/src
+
+<span class="c"># install dependencies and project</span>
+<span class="k">WORKDIR</span><span class="s"> /project</span>
+<span class="k">RUN</span> pdm install --prod --no-lock --no-editable
+
+
+<span class="c"># run stage</span>
+<span class="k">FROM</span> <span class="s">python:3.8</span>
+
+<span class="c"># retrieve packages from build stage</span>
+<span class="k">ENV</span> <span class="nv">PYTHONPATH</span><span class="o">=</span>/project/pkgs
+<span class="k">COPY</span> --from<span class="o">=</span>builder /project/__pypackages__/3.8/lib /project/pkgs
+
+<span class="c"># set command/entrypoint, adapt to fit your needs</span>
+<span class="k">CMD</span> <span class="p">[</span><span class="s2">&quot;python&quot;</span><span class="p">,</span> <span class="s2">&quot;-m&quot;</span><span class="p">,</span> <span class="s2">&quot;project&quot;</span><span class="p">]</span>
+</code></pre></div>
+</td></tr></table>
 <h2 id="integrate-with-other-ide-or-editors">Integrate with other IDE or editors<a class="headerlink" href="#integrate-with-other-ide-or-editors" title="Permanent link">#</a></h2>
 <h3 id="work-with-lsp-python-ms-in-emacs">Work with lsp-python-ms in Emacs<a class="headerlink" href="#work-with-lsp-python-ms-in-emacs" title="Permanent link">#</a></h3>
 <p>Below is a sample code snippet showing how to make PDM work with <a href="https://github.com/emacs-lsp/lsp-python-ms">lsp-python-ms</a> in Emacs. Contributed by <a href="https://github.com/pdm-project/pdm/discussions/372#discussion-3303501">@linw1995</a>.</p>
@@ -905,7 +1014,8 @@ It is already handled by the <code>pdm-project/setup-pdm</code> action.</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../project/" class="md-footer__link md-footer__link--prev" rel="prev">
+        
+        <a href="../project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Manage Project" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -920,7 +1030,8 @@ It is already handled by the <code>pdm-project/setup-pdm</code> action.</p>
         </a>
       
       
-        <a href="../../pyproject/pep621/" class="md-footer__link md-footer__link--next" rel="next">
+        
+        <a href="../../pyproject/pep621/" class="md-footer__link md-footer__link--next" aria-label="Next: PEP 621 Project metadata" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
@@ -990,10 +1101,10 @@ It is already handled by the <code>pdm-project/setup-pdm</code> action.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.53c85856.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      <script src="../../assets/javascripts/bundle.716f8af4.min.js"></script>
       
     
   </body>
